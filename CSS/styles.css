@@ -77,3 +77,12 @@ body {
 a {
     color: #5494cf;
 }
+
+#topBooks {
+    background-color: #18191c;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 620px;
+    padding-left: 30px;
+}
