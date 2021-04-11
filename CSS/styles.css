@@ -25,7 +25,7 @@ body {
 }
 
 .topnav a#topContact:hover {
-    background-color: #b09713;
+    background-color: #be6525;
     color: white;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .topnav a#topAbout:hover {
-    background-color: #be6525;
+    background-color: #b09713;
     color: white;
 }
 
@@ -57,7 +57,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    width: 80px
+    width: 90px
   }
   
   /* Change the color of links on hover */
@@ -71,3 +71,9 @@ body {
     background-color: #3c6a94;
     color: white;
   }
+
+/* Add more general stylings */
+
+a {
+    color: #5494cf;
+}
