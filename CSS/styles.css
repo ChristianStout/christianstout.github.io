@@ -2,10 +2,19 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;;
+    background-image: url('/images/background.jpeg');
+    background-attachment: fixed;
+}
+
+#content {
     background-color: #252a2e;
     color: #f2f2f2;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+    top: 0px;
 }
+
 /* 
 --- This is a template for an acutal website I am making
     Keeping it commented for reference/colors            ---
@@ -95,4 +104,10 @@ a {
 #aboutMeStart {
     align-items: center;
     text-align: center;
+}
+
+#footer {
+    padding: 5px;
+    width: 100%;
+    background-color: black;
 }
