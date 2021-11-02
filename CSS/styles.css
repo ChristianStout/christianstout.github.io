@@ -15,6 +15,11 @@ body {
     top: 0px;
 }
 
+img #me {
+    width: 400;
+    height: 500;
+}
+
 /* 
 --- This is a template for an acutal website I am making
     Keeping it commented for reference/colors            ---
