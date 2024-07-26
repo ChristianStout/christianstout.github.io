@@ -2,13 +2,16 @@
 body {
     font-family: 'Verdana';
     font-size: 17px;
-    background-attachment: fixed;
-    background-color:#faebd7;
+    background-color:#a1c4ca;
+    color:#3e483b;
 }
 
 div.page {
-    outline: dashed #071C39;
-    min-height: 90vh;
+    display: flex;
+    margin:0;
+    outline: solid #364b4c;
+    min-height: 100vh;
+    max-width: 1000px;
 }
 
 div.content {
@@ -16,6 +19,7 @@ div.content {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    background-color: #d1e0e3;
 }
 
 footer.footer {
@@ -32,42 +36,14 @@ footer.footer {
 }
 
 img#me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 80%;
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
 }
-
-  /* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    width: 90px
-}
-  
-  /* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: #191a1c;
-}
-  
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #3c6a94;
-    color: white;
-}
-
-/* Add more general stylings */
-
-a {
-    color: #5494cf;
-}
-
+/* 
 div.info {
     background-color: rgba(0, 0, 0, 0.1);
     margin: 40px;
@@ -75,4 +51,53 @@ div.info {
     padding: 3px;
     width: 90%;
     padding-left: 30px;
+} */
+
+#intro {
+    display: flex;
+    margin:25px;
+    /* border:#071C39 solid; */
+    padding: 25px;
 }
+
+#nametag {
+    margin: auto;
+    border-bottom: #071C39;
+}
+
+#name-and-pic {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right:#071C39 solid;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40pt;
+}
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+*/
+
+.oswald-normal {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+  
