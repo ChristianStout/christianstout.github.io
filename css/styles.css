@@ -1,0 +1,158 @@
+/* Add a black background color to the top navigation */
+body {
+    font-family: 'Verdana';
+    font-size: 17px;
+    background-color:#a1c4ca;
+    color:#3e483b;
+}
+
+div.page {
+    display: flex;
+    margin:auto;
+    outline: solid #364b4c;
+    min-height: 100vh;
+    max-width: 1000px;
+}
+
+div.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1e0e3;
+}
+
+.title {
+    padding-top: 0px;
+    font-size: 24px;
+}
+
+footer.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+img#me {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+/* 
+div.info {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 90%;
+    padding-left: 30px;
+} */
+
+#intro {
+    display: flex;
+    margin:25px;
+    /* border:#071C39 solid; */
+    padding: 25px;
+    padding-bottom: 0;
+    border-bottom: #071C39 solid;
+}
+
+#nametag {
+    margin: auto;
+}
+
+#name-and-pic {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right:#071C39 solid;
+}
+
+#bgd-links {
+    margin: 20px;
+}
+
+#links {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    padding: 12px;
+    transition: 0.3s;
+    margin: 6px;
+    width: auto;
+    min-width: 33.33%;
+    border-radius: 6px;
+    color:#364b4c;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #a1c4ca;
+    border:#a1c4ca;
+    border-radius: 12px;
+    color:#071C39;
+}
+
+.link:active {
+    background: #8fadb3;
+}
+
+.link-info > p {
+    font-weight: bold;
+    padding: 0;
+    margin:0;
+}
+
+.link-info > a {
+    color:#071C39;
+    
+}
+
+.link > img {
+    max-width: 30px;
+    color:aqua;
+    margin-right: 12px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40pt;
+}
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+*/
+
+.oswald-normal {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+  
