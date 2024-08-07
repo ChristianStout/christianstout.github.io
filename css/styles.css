@@ -12,6 +12,7 @@ div.page {
     outline: solid #364b4c;
     min-height: 100vh;
     max-width: 1000px;
+    min-width: 1000px;
 }
 
 div.content {
@@ -20,11 +21,6 @@ div.content {
     align-items: center;
     justify-content: center;
     background-color: #d1e0e3;
-}
-
-.title {
-    padding-top: 0px;
-    font-size: 24px;
 }
 
 footer.footer {
@@ -38,6 +34,7 @@ footer.footer {
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top:10px;
 }
 
 img#me {
@@ -47,6 +44,16 @@ img#me {
     width: auto;
     height: auto;
     border-radius: 50%;
+    transition: 0.2s;
+}
+
+img#me:hover {
+    display: block;
+    max-width:230px;
+    max-height:130px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
 }
 /* 
 div.info {
@@ -92,10 +99,10 @@ a {
 .link {
     display: flex;
     padding: 12px;
-    transition: 0.3s;
+    transition: 0.27s;
     margin: 6px;
     width: auto;
-    min-width: 33.33%;
+    min-width: 175px;
     border-radius: 6px;
     color:#364b4c;
     text-decoration: none;
@@ -129,17 +136,49 @@ a {
     margin-right: 12px;
 }
 
+.title {
+    padding-top: 0px;
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+}
+
+.title-decor {
+    border:#071C39 double;
+    max-width: 10px;
+    padding-left: 0%;
+    margin-left:12px;
+    min-width: 90px;
+}
+
+.title-decor > svg {
+    display: inline;
+    max-width:230px;
+    max-height:12px;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info-point {
+    margin:25px;
+    /* border:#071C39 solid; */
+    padding: 25px;
+    padding-bottom: 0;
+    border-bottom: #071C39 solid;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left:0;
+    padding-bottom: 18px;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: bolder;
     font-style: normal;
     font-size: 40pt;
 }
-
-/* 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 700
-*/
 
 .oswald-normal {
   font-family: "Oswald", sans-serif;
