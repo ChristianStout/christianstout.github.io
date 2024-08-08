@@ -95,6 +95,7 @@ div#education {
 
 a {
     text-decoration: none;
+    color:#364b4c;
 }
 
 .link {
@@ -144,6 +145,13 @@ a {
     width: 100%;
 }
 
+.subtitle {
+    padding-top: 0px;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+}
+
 .title-decor {
     border:#071C39 double;
     max-width: 10px;
@@ -177,6 +185,38 @@ a {
     padding-bottom: 22px;
 }
 
+.project {
+    color:#3e483b;
+    padding: 25px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin:12px;
+    border-top: rgba(13, 32, 59, 0.322) solid;
+    border-bottom:rgba(13, 32, 59, 0.322) solid;
+    border-left:#d1e0e3 dashed;
+    border-right:#d1e0e3 solid;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.project:hover {
+    background: #a1c4ca;
+    border:#a1c4ca solid;
+    border-radius: 12px;
+    /* color:#071C39; */
+}
+
+img.locked {
+    display: block;
+    max-width:25px;
+    max-height:16px;
+    width: auto;
+    height: auto;
+    padding-left: 6px;
+    padding-top: 4px;
+    transition: 0.2s;
+}
+
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: bolder;
@@ -198,4 +238,4 @@ a {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-  
+
