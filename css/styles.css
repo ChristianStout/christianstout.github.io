@@ -3,11 +3,13 @@ body {
     font-size: 17px;
     background-color:#a1c4ca;
     color:#3e483b;
+    margin:0;
 }
 
 div.page {
     display: flex;
     margin:auto;
+    margin-top: 12px;
     outline: solid #364b4c;
     min-height: 100vh;
     max-width: 1000px;
@@ -191,10 +193,12 @@ a {
     padding-top: 12px;
     padding-bottom: 6px;
     margin:12px;
-    border-top: rgba(13, 32, 59, 0.322) solid;
-    border-bottom:rgba(13, 32, 59, 0.322) solid;
-    border-left:#d1e0e3 dashed;
-    border-right:#d1e0e3 solid;
+    /* border-top: rgba(13, 32, 59, 0.322) double;
+    border-bottom:rgba(13, 32, 59, 0.322) double;
+    border-left:#d1e0e3 solid;
+    border-right:#d1e0e3 solid; */
+    border: #3e483b5e double;
+    border-radius: 12px;
     width: 100%;
     transition: 0.2s;
 }
