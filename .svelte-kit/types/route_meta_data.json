@@ -1,0 +1,33 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/atom.xml": [
+		"src/routes/atom.xml/+server.ts"
+	],
+	"/feed.json": [
+		"src/routes/feed.json/+server.ts"
+	],
+	"/hello-world": [
+		"src/routes/+layout.ts"
+	],
+	"/hello-world/elements": [
+		"src/routes/+layout.ts"
+	],
+	"/hello-world/toc-disabled": [
+		"src/routes/+layout.ts"
+	],
+	"/manifest.webmanifest": [
+		"src/routes/manifest.webmanifest/+server.ts"
+	],
+	"/posts.json": [
+		"src/routes/posts.json/+server.ts"
+	],
+	"/sitemap.xml": [
+		"src/routes/sitemap.xml/+server.ts"
+	],
+	"/tags.json": [
+		"src/routes/tags.json/+server.ts"
+	]
+}
