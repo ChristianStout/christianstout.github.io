@@ -1,12 +1,16 @@
+---
+title: 'Social Links'
+image: 'connections.jpg'
+created: 2025-06-13
+tags:
+  - 'Hello World'
+  - 'About Me'
+---
 # Socials
 
-(bluesky)[https://bsky.app/profile/gaylambda.bsky.social]
+🦋 [Bluesky](https://bsky.app/profile/gaylambda.bsky.social)
 
-```rust
-#[derive(Component)]
-pub struct Player;
+🐙 [Github](https://github.com/ChristianStout)
 
+🟦 [Linkedin](https://www.linkedin.com/in/christian-stout-072616235/)
 
-#[derive(Resource)]
-pub struct MovementSpeed(usize);
-```
