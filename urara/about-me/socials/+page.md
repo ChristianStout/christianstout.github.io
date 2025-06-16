@@ -1,6 +1,6 @@
 ---
 title: 'Social Links'
-image: 'connections.jpg'
+image: '/assets/connections.jpg'
 created: 2025-06-13
 tags:
   - 'Hello World'

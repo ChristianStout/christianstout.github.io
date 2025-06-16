@@ -1,0 +1,221 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_icon.js": {
+    "file": "chunks/icon.js",
+    "imports": [
+      "_site.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "dynamicImports": [
+      "src/hooks.server.ts"
+    ]
+  },
+  "_post_card.js": {
+    "file": "chunks/post_card.js",
+    "imports": [
+      "_ssr.js",
+      "_site.js",
+      "_prod-ssr.js",
+      "_icon.js"
+    ],
+    "assets": [
+      "_app/immutable/assets/favicon.DiqaJUa5.avif"
+    ]
+  },
+  "_posts.js": {
+    "file": "chunks/posts.js",
+    "imports": [
+      "_ssr.js",
+      "_post_card.js"
+    ]
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
+  },
+  "_site.js": {
+    "file": "chunks/site.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "_title.js": {
+    "file": "chunks/title.js",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "favicon.avif": {
+    "file": "_app/immutable/assets/favicon.DiqaJUa5.avif",
+    "src": "favicon.avif"
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1_@types+node@2_koq3ersix6ahwrpqcmv22k3req/node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1_@types+node@2_koq3ersix6ahwrpqcmv22k3req/node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1_@types+node@2_koq3ersix6ahwrpqcmv22k3req/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.5.0_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.10_vite@5.1.1_@types+node@2_koq3ersix6ahwrpqcmv22k3req/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_prod-ssr.js",
+      "_internal.js",
+      "_index.js",
+      "_exports.js",
+      "_index2.js"
+    ]
+  },
+  "src/hooks.server.ts": {
+    "file": "chunks/hooks.server.js",
+    "src": "src/hooks.server.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_site.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_icon.js",
+      "_post_card.js",
+      "_site.js",
+      "_title.js",
+      "_posts.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.B6NO7Dn_.css"
+    ]
+  },
+  "src/routes/+layout.ts": {
+    "file": "entries/pages/_layout.ts.js",
+    "src": "src/routes/+layout.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js",
+      "_post_card.js",
+      "_site.js",
+      "_title.js"
+    ]
+  },
+  "src/routes/about-me/+page.md": {
+    "file": "entries/pages/about-me/_page.md.js",
+    "src": "src/routes/about-me/+page.md",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_posts.js"
+    ]
+  },
+  "src/routes/about-me/socials/+page.md": {
+    "file": "entries/pages/about-me/socials/_page.md.js",
+    "src": "src/routes/about-me/socials/+page.md",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_posts.js"
+    ]
+  },
+  "src/routes/atom.xml/+server.ts": {
+    "file": "entries/endpoints/atom.xml/_server.ts.js",
+    "src": "src/routes/atom.xml/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_post_card.js",
+      "_icon.js",
+      "_site.js",
+      "_posts.js"
+    ]
+  },
+  "src/routes/feed.json/+server.ts": {
+    "file": "entries/endpoints/feed.json/_server.ts.js",
+    "src": "src/routes/feed.json/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_post_card.js",
+      "_icon.js",
+      "_site.js",
+      "_posts.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/manifest.webmanifest/+server.ts": {
+    "file": "entries/endpoints/manifest.webmanifest/_server.ts.js",
+    "src": "src/routes/manifest.webmanifest/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_icon.js",
+      "_site.js"
+    ]
+  },
+  "src/routes/posts.json/+server.ts": {
+    "file": "entries/endpoints/posts.json/_server.ts.js",
+    "src": "src/routes/posts.json/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_posts.js",
+      "_index.js"
+    ]
+  },
+  "src/routes/sitemap.xml/+server.ts": {
+    "file": "entries/endpoints/sitemap.xml/_server.ts.js",
+    "src": "src/routes/sitemap.xml/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_site.js",
+      "_posts.js"
+    ]
+  },
+  "src/routes/tags.json/+server.ts": {
+    "file": "entries/endpoints/tags.json/_server.ts.js",
+    "src": "src/routes/tags.json/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_posts.js",
+      "_index.js"
+    ]
+  }
+}
