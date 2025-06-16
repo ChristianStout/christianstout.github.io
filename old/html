@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Christian Stout</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<div class="page">
+    <div class="content">
+        <div id="intro">
+            <div id="name-and-pic">
+                <h2 id="nametag" class="bebas-neue-regular">CHRISTIAN STOUT</h2>
+                <img id="me" src="meJuly2024.jpg">
+            </div>
+            <div id="bgd-links">
+                <div id="personal-background">
+                    
+                    <div class="title">
+                    <div class="oswald-normal">
+                        ABOUT ME
+                    </div>
+                    <!-- <div class="title-decor"><img src="svgs/decor.svg"></div> -->
+                    </div>
+                    <p class="open-sans-normal">
+                        Graduate with a degree in Computer Science and a passion for designing and
+                        implementing fast and efficient software. Seeking a role to apply exceptional
+                        aptitude for developing creative software to enhance an organization's
+                        productivity and efficiency to help meet goals and initiatives.
+                    </p>
+                </div>
+
+                <div id="links">
+                    <a href="https://github.com/ChristianStout">
+                    <div class="link">
+                        <img src="svgs/github-142-svgrepo-com.svg">
+                        <div class="link-info">
+                            <p>github:</p>
+                            christianstout
+                        </div>
+                    </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/christian-stout-072616235/">
+                    <div class="link">
+                        <img src="svgs/linkedin-round-svgrepo-com.svg">
+                        <div class="link-info">
+                            <p>linkedin:</p>
+                            <span>Christian Stout</span>
+                        </div>
+                    </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/chrisastout/">
+                        <div class="link">
+                            <img src="svgs/instagram-round-svgrepo-com.svg">
+                            <div class="link-info">
+                                <p>instagram:</p>
+                                chrisastout
+                            </div>
+                        </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <div class='info'>
+            <div class="info-point">
+                <div class="subpoint" id="education">
+                <div class="title">
+                    <div class="oswald-normal">EDUCATION</div>
+                    <!-- <div class="title-decor"><img src="svgs/decor.svg"></div> -->
+                </div>
+
+                <div class="oswald-normal" style="font-weight:normal;"> <b>Utah Valley Univerity</b> - B.S. Computer Science</div>
+                    <ul class="open-sans-normal">
+                        <li>3.54 Overall GPA, 3.72 GPA in Computer
+                            Science classes.</li>
+                        <li>Frequently made the dean’s list.</li>
+                        <li>Trained in a wide variety of software topics</li>
+                        <li>Excelled in low-level and high-level classes
+                            alike.</li>
+                    </ul>
+                </div>
+                <div id="awards"  class="subpoint">
+                    <div class="title">
+                        <div class="oswald-normal">AWARDS</div>
+    
+                        <!-- <div class="title-decor"><img src="svgs/decor.svg"></div> -->
+                    </div>
+    
+                    <div class="oswald-normal" style="font-weight:normal;"> <b>Boy Scouts of America</b> - Eagle Scout</div>
+                        <ul class="open-sans-normal">
+                            <li>Initiated and managed a local project.</li>
+                            <li>Cleaned a historical native site for
+                                restoration.</li>
+                            <li>Gained experience coordinating with the
+                                government and community.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-point projects">
+                    <div>
+                    <div class="title">
+                        <div class="oswald-normal">PROJECTS</div>
+                    </div>
+                    
+                    <a href="https://github.com/ChristianStout/uvu-compiler">
+                    <div class="project">
+                        <div class="oswald-normal subtitle" style="font-weight:normal;"> 
+                        <b>KXI Compiler</b> 
+                        <span><img class="locked" src="svgs/lock-svgrepo-com.svg"></span>
+                        <span style="font-weight: light;">Available upon request</span>
+                    </div>
+                    <ul class="open-sans-normal">
+                        <li>Designed and implemented a compiler, assembler, and
+                            virtual machine.</li>
+                        <li>Converts high-level code into low-level assembly
+                            language, then into byte-code.</li>
+                        <li>Fully supports variables, chars, strings, ints, math
+                            operations, custom classes, and functions.</li>
+                        <li>Written in Python and C++.</li>
+                    </ul>
+                    </a>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<footer class="footer">
+    Copyright &#169 2024 - Christian Stout
+</footer>
+</body>
+</html>

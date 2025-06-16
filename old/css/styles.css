@@ -1,0 +1,245 @@
+body {
+    font-family: 'Verdana';
+    font-size: 17px;
+    background-color:#a1c4ca;
+    color:#3e483b;
+    margin:0;
+}
+
+div.page {
+    display: flex;
+    margin:auto;
+    margin-top: 12px;
+    outline: solid #364b4c;
+    min-height: 100vh;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+div.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1e0e3;
+}
+
+footer.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top:10px;
+}
+
+img#me {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+img#me:hover {
+    display: block;
+    max-width:230px;
+    max-height:130px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+}
+
+#intro {
+    display: flex;
+    margin:25px;
+    margin-bottom: 0;
+    /* border:#071C39 solid; */
+    padding: 25px;
+    padding-bottom: 0;
+    border-bottom: #071C39 solid;
+}
+
+#nametag {
+    margin: auto;
+}
+
+#name-and-pic {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right:#071C39 solid;
+}
+
+#bgd-links {
+    margin: 20px;
+}
+
+#links {
+    display: flex;
+}
+
+div#awards {
+    border-left:#071C39 solid;
+    padding-left: 22px;
+    min-height: 100%;
+}
+
+div#education {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color:#364b4c;
+}
+
+.link {
+    display: flex;
+    padding: 12px;
+    transition: 0.27s;
+    margin: 6px;
+    width: auto;
+    min-width: 175px;
+    border-radius: 6px;
+    color:#364b4c;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #a1c4ca;
+    border:#a1c4ca;
+    border-radius: 12px;
+    color:#071C39;
+}
+
+.link:active {
+    background: #8fadb3;
+}
+
+.link-info > p {
+    font-weight: bold;
+    padding: 0;
+    margin:0;
+}
+
+.link-info > a {
+    color:#071C39;
+    
+}
+
+.link > img {
+    max-width: 30px;
+    color:aqua;
+    margin-right: 12px;
+}
+
+.title {
+    padding-top: 0px;
+    font-size: 24px;
+    display: flex;
+    width: 100%;
+}
+
+.subtitle {
+    padding-top: 0px;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+}
+
+.title-decor {
+    border:#071C39 double;
+    max-width: 10px;
+    padding-left: 0%;
+    margin-left:12px;
+    min-width: 90px;
+}
+
+.title-decor > svg {
+    display: inline;
+    max-width:230px;
+    max-height:12px;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info-point {
+    display: flex;
+    margin:25px;
+    padding-bottom: 0;
+    border-bottom: #071C39 solid;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left:0;
+}
+
+.subpoint {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.project {
+    color:#3e483b;
+    padding: 25px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin:12px;
+    /* border-top: rgba(13, 32, 59, 0.322) double;
+    border-bottom:rgba(13, 32, 59, 0.322) double;
+    border-left:#d1e0e3 solid;
+    border-right:#d1e0e3 solid; */
+    border: #3e483b5e double;
+    border-radius: 12px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.project:hover {
+    background: #a1c4ca;
+    border:#a1c4ca solid;
+    border-radius: 12px;
+    /* color:#071C39; */
+}
+
+img.locked {
+    display: block;
+    max-width:25px;
+    max-height:16px;
+    width: auto;
+    height: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    transition: 0.2s;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40pt;
+}
+
+.oswald-normal {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
