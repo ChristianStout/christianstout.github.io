@@ -6,7 +6,7 @@
   <icon>https://urara-demo.netlify.app/favicon.png</icon>
   <link href="https://urara-demo.netlify.app" />
   <link href="https://urara-demo.netlify.app/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2025-06-16T15:54:05.322Z</updated>
+  <updated>2025-06-19T15:28:05.099Z</updated>
   <author>
     <name><![CDATA[Christian Stout]]></name>
   </author>
@@ -17,7 +17,7 @@
     <link href="https://urara-demo.netlify.app/about-me/socials" />
     <id>https://urara-demo.netlify.app/about-me/socials</id>
     <published>2025-06-13T00:00:00.000Z</published>
-    <updated>2025-06-16T15:52:14.263Z</updated>
+    <updated>2025-06-16T15:55:18.072Z</updated>
     <content type="html">
       <![CDATA[<h1 id="socials" data-svelte-h="svelte-fidbwo"><a href="#socials">Socials</a></h1> <p data-svelte-h="svelte-1fjexc1">🦋 <a href="https://bsky.app/profile/gaylambda.bsky.social" rel="nofollow noopener noreferrer external" target="_blank">Bluesky</a></p> <p data-svelte-h="svelte-11p1kni">🐙 <a href="https://github.com/ChristianStout" rel="nofollow noopener noreferrer external" target="_blank">Github</a></p> <p data-svelte-h="svelte-9pmmdl">🟦 <a href="https://www.linkedin.com/in/christian-stout-072616235/" rel="nofollow noopener noreferrer external" target="_blank">Linkedin</a></p>]]>
     </content>

@@ -105,7 +105,7 @@ const metadata = {
   "image": "/assets/connections.jpg",
   "created": "2025-06-13T00:00:00.000Z",
   "tags": ["Hello World", "About Me"],
-  "updated": "2025-06-16T15:52:14.263Z",
+  "updated": "2025-06-16T15:55:18.072Z",
   "images": [],
   "slug": "/about-me/socials/+page.md",
   "path": "/about-me/socials",

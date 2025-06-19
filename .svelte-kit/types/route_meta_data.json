@@ -3,6 +3,12 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
+	"/about-me": [
+		"src/routes/+layout.ts"
+	],
+	"/about-me/socials": [
+		"src/routes/+layout.ts"
+	],
 	"/atom.xml": [
 		"src/routes/atom.xml/+server.ts"
 	],
