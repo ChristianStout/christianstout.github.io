@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://urara-demo.netlify.app/</id>
+  <title><![CDATA[Home]]></title>
+  <subtitle><![CDATA[Sweet & Powerful SvelteKit Blog Template]]></subtitle>
+  <icon>https://urara-demo.netlify.app/favicon.png</icon>
+  <link href="https://urara-demo.netlify.app" />
+  <link href="https://urara-demo.netlify.app/atom.xml" rel="self" type="application/atom+xml" />
+  <updated>2025-06-19T16:53:31.365Z</updated>
+  <author>
+    <name><![CDATA[Christian Stout]]></name>
+  </author>
+  <category term="Hello World" scheme="https://urara-demo.netlify.app/?tags=Hello%20World" />
+  <category term="About Me" scheme="https://urara-demo.netlify.app/?tags=About%20Me" />
+  <entry>
+    <title type="html"><![CDATA[Social Links]]></title>
+    <link href="https://urara-demo.netlify.app/about-me/socials" />
+    <id>https://urara-demo.netlify.app/about-me/socials</id>
+    <published>2025-06-13T00:00:00.000Z</published>
+    <updated>2025-06-19T16:53:03.369Z</updated>
+    <content type="html">
+      <![CDATA[<h1 id="socials" data-svelte-h="svelte-fidbwo"><a href="#socials">Socials</a></h1> <p data-svelte-h="svelte-1fjexc1">🦋 <a href="https://bsky.app/profile/gaylambda.bsky.social" rel="nofollow noopener noreferrer external" target="_blank">Bluesky</a></p> <p data-svelte-h="svelte-11p1kni">🐙 <a href="https://github.com/ChristianStout" rel="nofollow noopener noreferrer external" target="_blank">Github</a></p> <p data-svelte-h="svelte-9pmmdl">🟦 <a href="https://www.linkedin.com/in/christian-stout-072616235/" rel="nofollow noopener noreferrer external" target="_blank">Linkedin</a></p>]]>
+    </content>
+    <category term="Hello World" scheme="https://urara-demo.netlify.app/?tags=Hello%20World" />
+    <category term="About Me" scheme="https://urara-demo.netlify.app/?tags=About%20Me" />
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <link href="https://urara-demo.netlify.app/about-me" />
+    <id>https://urara-demo.netlify.app/about-me</id>
+    <published>2025-06-10T00:00:00.000Z</published>
+    <updated>2025-06-19T16:53:03.369Z</updated>
+    <content type="html">
+      <![CDATA[<p data-svelte-h="svelte-jqd5ja">Hello! Welcome to my website. I plan to share some of the things that I find interesting,and the things I do to keep my mind fresh.</p> <p data-svelte-h="svelte-1q0bkjl">I love to program, hike, play video games, and learn languages (human and computer).</p> <h2 id="experience" data-svelte-h="svelte-19x40l8"><a href="#experience">Experience</a></h2> <p data-svelte-h="svelte-4jo7q2">I have a degree in Computer Science from Utah Valley University. I agraduated with a 3.54 cumulative GPA.</p> <p data-svelte-h="svelte-1xa0rky">I still continuously strive to improve my skills, challenge myself, and learn new concepts. I proudly do notuse AI in any of my code or writings whatsoever.</p>]]>
+    </content>
+    <category term="Hello World" scheme="https://urara-demo.netlify.app/?tags=Hello%20World" />
+    <category term="About Me" scheme="https://urara-demo.netlify.app/?tags=About%20Me" />
+  </entry>
+</feed>
