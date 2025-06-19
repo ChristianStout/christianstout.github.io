@@ -68,7 +68,7 @@ const Post_layout = create_ssr_component(($$result, $$props, $$bindings, slots) 
     }
   })}`;
 });
-const metadata$1 = {
+const metadata$2 = {
   "title": "About Me",
   "image": "/assets/a.png",
   "alt": "Urara",
@@ -86,8 +86,8 @@ const metadata$1 = {
     }
   ]
 };
-const Page$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Post_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata$1), {}, {
+const Page$2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Post_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata$2), {}, {
     default: () => {
       return `<p data-svelte-h="svelte-jqd5ja">Hello! Welcome to my website. I plan to share some of the things that I find interesting,
 and the things I do to keep my mind fresh.</p> <p data-svelte-h="svelte-1q0bkjl">I love to program, hike, play video games, and learn languages (human and computer).</p> <h2 id="experience" data-svelte-h="svelte-19x40l8"><a href="#experience">Experience</a></h2> <p data-svelte-h="svelte-4jo7q2">I have a degree in Computer Science from Utah Valley University. I agraduated with a 3.54 cumulative GPA.</p> <p data-svelte-h="svelte-1xa0rky">I still continuously strive to improve my skills, challenge myself, and learn new concepts. I proudly do not
@@ -97,10 +97,10 @@ use AI in any of my code or writings whatsoever.</p>`;
 });
 const __vite_glob_0_0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: Page$1,
-  metadata: metadata$1
+  default: Page$2,
+  metadata: metadata$2
 }, Symbol.toStringTag, { value: "Module" }));
-const metadata = {
+const metadata$1 = {
   "title": "Social Links",
   "image": "/assets/connections.jpg",
   "created": "2025-06-13T00:00:00.000Z",
@@ -117,8 +117,8 @@ const metadata = {
     }
   ]
 };
-const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Post_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
+const Page$1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Post_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata$1), {}, {
     default: () => {
       return `<h1 id="socials" data-svelte-h="svelte-fidbwo"><a href="#socials">Socials</a></h1> <p data-svelte-h="svelte-1fjexc1">🦋 <a href="https://bsky.app/profile/gaylambda.bsky.social" rel="nofollow noopener noreferrer external" target="_blank">Bluesky</a></p> <p data-svelte-h="svelte-11p1kni">🐙 <a href="https://github.com/ChristianStout" rel="nofollow noopener noreferrer external" target="_blank">Github</a></p> <p data-svelte-h="svelte-9pmmdl">🟦 <a href="https://www.linkedin.com/in/christian-stout-072616235/" rel="nofollow noopener noreferrer external" target="_blank">Linkedin</a></p>`;
     }
@@ -126,13 +126,43 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const __vite_glob_0_1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
+  default: Page$1,
+  metadata: metadata$1
+}, Symbol.toStringTag, { value: "Module" }));
+const metadata = {
+  "title": "LC3 Simulator",
+  "image": "/assets/a.png",
+  "alt": "Urara",
+  "created": "2025-06-19T00:00:00.000Z",
+  "tags": ["Rust", "Low-Level"],
+  "updated": "2025-06-19T17:02:39.847Z",
+  "images": [],
+  "slug": "/lc3/+page.md",
+  "path": "/lc3",
+  "toc": [
+    {
+      "depth": 1,
+      "slug": "hello",
+      "title": "Hello"
+    }
+  ]
+};
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Post_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
+    default: () => {
+      return `<h1 id="hello" data-svelte-h="svelte-ezgkak"><a href="#hello">Hello</a></h1> <p data-svelte-h="svelte-14i4208">HELLO HELLO HELLO</p>`;
+    }
+  })}`;
+});
+const __vite_glob_0_2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
   default: Page,
   metadata
 }, Symbol.toStringTag, { value: "Module" }));
 const typeOfPost = (fm) => fm.title ? "article" : fm.image ? "photo" : fm.audio ? "audio" : fm.video ? "video" : fm.bookmark_of ? "bookmark" : fm.like_of ? "like" : fm.repost_of ? "repost" : fm.in_reply_to ? "reply" : "note";
 const genPosts = ({
   filterUnlisted = false,
-  modules = /* @__PURE__ */ Object.assign({ "/src/routes/about-me/+page.md": __vite_glob_0_0, "/src/routes/about-me/socials/+page.md": __vite_glob_0_1 }),
+  modules = /* @__PURE__ */ Object.assign({ "/src/routes/about-me/+page.md": __vite_glob_0_0, "/src/routes/about-me/socials/+page.md": __vite_glob_0_1, "/src/routes/lc3/+page.md": __vite_glob_0_2 }),
   postHtml = false,
   postLimit = void 0
 } = {}) => Object.entries(modules).map(([, module]) => ({
@@ -144,10 +174,12 @@ const genTags = (posts) => [
   ...new Set(posts.reduce((acc, posts2) => posts2.tags ? [...acc, ...posts2.tags] : acc, [""]).slice(1))
 ];
 export {
-  Page$1 as P,
+  Page$2 as P,
   genPosts as a,
-  Page as b,
-  metadata as c,
+  Page$1 as b,
+  metadata$1 as c,
+  Page as d,
+  metadata as e,
   genTags as g,
-  metadata$1 as m
+  metadata$2 as m
 };

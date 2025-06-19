@@ -15,6 +15,9 @@
 	"/feed.json": [
 		"src/routes/feed.json/+server.ts"
 	],
+	"/lc3": [
+		"src/routes/+layout.ts"
+	],
 	"/manifest.webmanifest": [
 		"src/routes/manifest.webmanifest/+server.ts"
 	],

@@ -6,12 +6,26 @@
   <icon>https://urara-demo.netlify.app/favicon.png</icon>
   <link href="https://urara-demo.netlify.app" />
   <link href="https://urara-demo.netlify.app/atom.xml" rel="self" type="application/atom+xml" />
-  <updated>2025-06-19T16:52:14.552Z</updated>
+  <updated>2025-06-19T17:02:58.685Z</updated>
   <author>
     <name><![CDATA[Christian Stout]]></name>
   </author>
+  <category term="Rust" scheme="https://urara-demo.netlify.app/?tags=Rust" />
+  <category term="Low-Level" scheme="https://urara-demo.netlify.app/?tags=Low-Level" />
   <category term="Hello World" scheme="https://urara-demo.netlify.app/?tags=Hello%20World" />
   <category term="About Me" scheme="https://urara-demo.netlify.app/?tags=About%20Me" />
+  <entry>
+    <title type="html"><![CDATA[LC3 Simulator]]></title>
+    <link href="https://urara-demo.netlify.app/lc3" />
+    <id>https://urara-demo.netlify.app/lc3</id>
+    <published>2025-06-19T00:00:00.000Z</published>
+    <updated>2025-06-19T17:02:39.847Z</updated>
+    <content type="html">
+      <![CDATA[<h1 id="hello" data-svelte-h="svelte-ezgkak"><a href="#hello">Hello</a></h1> <p data-svelte-h="svelte-14i4208">HELLO HELLO HELLO</p>]]>
+    </content>
+    <category term="Rust" scheme="https://urara-demo.netlify.app/?tags=Rust" />
+    <category term="Low-Level" scheme="https://urara-demo.netlify.app/?tags=Low-Level" />
+  </entry>
   <entry>
     <title type="html"><![CDATA[Social Links]]></title>
     <link href="https://urara-demo.netlify.app/about-me/socials" />
