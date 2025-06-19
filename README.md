@@ -1,12 +1,9 @@
-This is a basic website
-
 <br />
 <div align="center">
 <a href="https://github.com/importantimport/urara">
 <img src="https://github.com/importantimport/urara/raw/main/urara/hello-world/urara.webp" alt="urara" /></a>
 </div>
 <br />
-
 
 <p align="center">
 <a href="https://fff.js.org"><img src="https://img.shields.io/badge/%F0%9F%8C%9F%20F%20F%20F-1.2-yellow?style=flat" alt="fff" /></a>

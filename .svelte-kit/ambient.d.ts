@@ -71,6 +71,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_fff_flavored_frontmatter: string;
 	export const npm_package_devDependencies_remark: string;
 	export const npm_package_devDependencies_workbox_window: string;
+	export const npm_config_engine_strict: string;
 	export const COLORTERM: string;
 	export const npm_package_devDependencies_daisyui: string;
 	export const npm_package_devDependencies_tailwindcss: string;
@@ -140,6 +141,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_fenceparser: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies_tslib: string;
+	export const npm_config_strict_peer_dependencies: string;
 	export const npm_package_author: string;
 	export const npm_package_devDependencies__iconify_json_heroicons_outline: string;
 	export const GPG_AGENT_INFO: string;
@@ -252,6 +254,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_fff_flavored_frontmatter: string;
 		npm_package_devDependencies_remark: string;
 		npm_package_devDependencies_workbox_window: string;
+		npm_config_engine_strict: string;
 		COLORTERM: string;
 		npm_package_devDependencies_daisyui: string;
 		npm_package_devDependencies_tailwindcss: string;
@@ -321,6 +324,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_fenceparser: string;
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies_tslib: string;
+		npm_config_strict_peer_dependencies: string;
 		npm_package_author: string;
 		npm_package_devDependencies__iconify_json_heroicons_outline: string;
 		GPG_AGENT_INFO: string;
