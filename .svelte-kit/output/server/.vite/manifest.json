@@ -182,15 +182,6 @@
       "_index.js"
     ]
   },
-  "src/routes/lc3/+page.md": {
-    "file": "entries/pages/lc3/_page.md.js",
-    "src": "src/routes/lc3/+page.md",
-    "isEntry": true,
-    "imports": [
-      "_ssr.js",
-      "_posts.js"
-    ]
-  },
   "src/routes/manifest.webmanifest/+server.ts": {
     "file": "entries/endpoints/manifest.webmanifest/_server.ts.js",
     "src": "src/routes/manifest.webmanifest/+server.ts",

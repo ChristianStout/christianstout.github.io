@@ -1,5 +1,5 @@
 ---
-title: 'LC3 Simulator'
+title: 'LC-3 Simulator'
 image: '/assets/a.png'
 alt: 'Urara'
 created: 2025-06-19
