@@ -11,18 +11,13 @@
     </url>
     
         <url>
-            <loc>https://urara-demo.netlify.app/lc3</loc>
-            <lastmod>2025-06-19T17:05:15.178Z</lastmod>
-            <priority>0.5</priority>
-        </url>
-        <url>
             <loc>https://urara-demo.netlify.app/about-me/socials</loc>
-            <lastmod>2025-06-19T17:05:15.177Z</lastmod>
+            <lastmod>2025-06-26T16:43:14.415Z</lastmod>
             <priority>0.5</priority>
         </url>
         <url>
             <loc>https://urara-demo.netlify.app/about-me</loc>
-            <lastmod>2025-06-19T17:05:15.177Z</lastmod>
+            <lastmod>2025-06-26T16:43:14.415Z</lastmod>
             <priority>0.5</priority>
         </url>
   </urlset>
